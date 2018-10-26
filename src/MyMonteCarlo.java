@@ -25,6 +25,7 @@ public class MyMonteCarlo {
         System.out.println("Time Duration: " + (stopTime - startTime) + "ms\n");
 
 
+        //Parallel Section
         PiMonteCarlo PiVal = new PiMonteCarlo(nThrows);
         long startTime2 = System.currentTimeMillis();
         double value2 = PiVal.getPi();
